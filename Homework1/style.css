@@ -363,3 +363,43 @@ footer {
     top: 19px; 
     left: 26.5px; 
   }
+
+/* Form section */
+.Form-Section {
+    margin-top: 32px;
+    background: #EFECFF;
+    padding: 32px;
+    margin-right: 32px;
+    margin-bottom: 198px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  .form-group input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #612999;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .submit-button:hover {
+    background-color: #4e207e;
+  }
