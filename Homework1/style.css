@@ -168,3 +168,125 @@ footer {
     line-height: 140.625%; 
     
   }
+
+  /* Cars section styling */
+.Cars-section {
+    padding-left: 32px; 
+    padding-right: 32px; 
+  }
+  .Cars-section h2 {
+    margin-bottom: 32px; 
+    color: #612999;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .popular-Cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 376px); 
+    gap: 32px; 
+    padding-bottom: 32px; 
+  }
+  .Cars-card {
+    position: relative; 
+    width: 376px; 
+    height: 496px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 38px;
+    background: #EFECFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+  }
+  .Cars-card img {
+    width: 100%; 
+    height: 276px;
+    object-fit: cover;
+    border-radius: 38px;
+  }
+  .Cars-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Cars-details h3 {
+    position: absolute;
+    top: 297px; 
+    left: 32px; 
+    margin: 0;
+    color: #000;
+    font-family: 'Abel';
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .Cars-details p {
+    position: absolute;
+    top: 330px; 
+    left: 32px;
+    color: #333;
+    font-family: 'Abel';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Cars-details .price {
+    position: absolute;
+    left: 32px;
+    bottom: 36px; 
+    color: #612999;
+    font-family: 'Abel';
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .Cars-details .cart-icon-container {
+    position: absolute;
+    right: 57px; 
+    bottom: 27px; 
+    width: 63px; 
+    height: 63px;
+  }
+  .Cars-details .ellipse {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .Cars-details .cart-icon {
+    width: 31px; 
+    height: 31px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .Cars-details .wishlist-btn {
+    position: absolute;
+    right: 52px; 
+    top: 35px; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cars-details .ellipse-heart {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .Cars-details .heart-icon {
+    width: fit-content;
+    height: fit-content;
+    z-index: 1;
+    border-radius: 1px;
+    
+  }
