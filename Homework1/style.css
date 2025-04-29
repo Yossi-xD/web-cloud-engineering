@@ -10,7 +10,7 @@ body, html {
     margin: 0 auto; 
     padding-bottom: 287px;
 }
-/* Header styling */
+/* Header styling .*/
 header {
     display: flex;
     justify-content: space-between;
